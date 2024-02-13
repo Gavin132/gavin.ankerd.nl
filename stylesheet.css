@@ -1,11 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 body {
     margin: 0px;
-    background-color: rgb(14, 14, 14);
+    background-color: rgb(250, 250, 250);
 
 }/*mobile css*/
 @media screen and (max-width: 1200px) {
@@ -16,5 +13,44 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
-     
+     .header-mega {
+        font-size: xx-large;
+     }
+
+     .center {
+
+        display: flex;
+        justify-content: center;
+     }
+
+     .right {
+        display: flex;
+        justify-content: right;
+     }
+
+     .left {
+        display: flex;
+        justify-content: left;
+
+     }
+
+     .text-right {
+        text-align: right;
+     }
+
+     .margin20per {
+        margin-left: 20%;
+        margin-right: 20%;
+     }
+
+     .outfit-font-bold {
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+     }
+
+     .xxxl {
+        font-size: 500%;
+     }
 }
