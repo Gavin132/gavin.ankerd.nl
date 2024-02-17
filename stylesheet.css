@@ -76,4 +76,14 @@ body {
       color: gray;
       transition: 0.3s;
      }
+
+     .padding {
+      padding-top: 100px;
+     }
+
+     .coverimage {
+      width: 60%;
+      border-radius: 15px;
+      box-shadow: 1px 1px 10px grey;
+     }
 }
