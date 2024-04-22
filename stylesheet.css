@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+25&family=Quicksand:wght@300..700&display=swap');
 
 body {
     margin: 0px;
-    background-color: rgb(250, 250, 250);
+    background-color: #f7ffff;
 
-}/*mobile css*/
+
+}
+
+/*mobile css*/
 @media screen and (max-width: 1200px) {
     .mobilehidden{
         display: none;
@@ -13,8 +17,21 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
+hr {
+   width: 70%;
+   color: gray;
+   border-width: 0;
+   height: 1px;
+   background-color: gray;
+}
+
      .header-mega {
         font-size: xx-large;
+     }
+
+     .header {
+      font-size: x-large;
+      font-weight: 700;
      }
 
      .center {
@@ -38,17 +55,54 @@ body {
         text-align: right;
      }
 
+.text {
+   display: flex;
+}
+
      .margin20per {
         margin-left: 20%;
         margin-right: 20%;
      }
 
-     .poppins-font-bold {
-        font-family: "Poppins", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 600;
-        font-style: normal;
-     }
+.margin10px {
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+}
+
+.poppins-font {
+   font-family: "Poppins", sans-serif;
+   font-optical-sizing: auto;
+   font-style: normal;
+}
+
+     .quicksand-700 {
+      font-family: "Quicksand", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 700;
+      font-style: normal;
+    }
+    
+.div-center {
+   display: flex;
+
+}
+
+    .ankerd-blue {
+    color: #6de9ff;
+    }
+
+.light {
+   font-weight: 350;
+}
+
+.bold {
+   font-weight: 700;
+}
+
+    .xs{
+      font-size: 50%;
+    }
 
      .xl {
       font-size: 250%;
@@ -60,8 +114,7 @@ body {
 
      .navbar {
       display: flex;
-      flex-direction: column;
-      align-items: flex-end;
+      justify-content: flex-end;
      }
 
      .navbar-button {
@@ -69,21 +122,34 @@ body {
       color: black;
       transition: 0.3s;
       font-family: "Poppins", sans-serif;
+
+     }
+
+     .navbar-margin-left {
+      margin-left: 20px;
      }
 
      .navbar-button:hover {
       text-decoration: none;
-      color: gray;
+      color: #bbf3fd;
       transition: 0.3s;
+
      }
 
      .padding {
-      padding-top: 100px;
+      padding-top: 50px;
      }
+
+.image {
+   border-radius: 10px;
+   box-shadow: 1px 1px 50px lightgray;
+   display: flex;
+   flex-wrap: wrap;
+}
 
      .coverimage {
       width: 60%;
-      border-radius: 15px;
-      box-shadow: 1px 1px 10px grey;
+      border-radius: 10px;
+      box-shadow: 1px 1px 50px lightgray;
      }
 }
