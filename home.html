@@ -10,14 +10,9 @@
 <link rel="icon" type="ankerdlogowitwit2024.svg" href="site-images/ankerdlogowitwit2024.svg">
 <link href="stylesheet.css" rel="stylesheet">
 <script src="https://kit.fontawesome.com/becf1fd432.js" crossorigin="anonymous"></script>
-<script>
-    src = "/age.js"
-</script>
-
 
 <body>
     <div>
-        <div class="padding"></div>
         <div class="right margin20per">
             <header class="header-mega poppins-font bold xxxl">
                 Stütterheim <xs class="xs ankerd-blue">Gavin<xs>
@@ -33,28 +28,140 @@
 
     <hr>
 
+
+
+
+
+    <style>
+        @media screen and (max-width: 1200px) {
+            .parallax {
+                background-image: url("site-images/liilguy7.png");
+                height: 230px;
+                background-attachment: fixed;
+                background-position: 0px 0px;
+                background-repeat: no-repeat;
+                background-size: contain;
+                margin-left: auto;
+                margin-right: auto;
+                position: relative;
+            }
+
+            .marginleft {
+                margin-right: 0em;
+            }
+
+        }
+
+        @media screen and (min-width: 1201px) {
+            .parallax {
+                background-image: url("site-images/liilguy7.png");
+                height: 60%;
+                background-attachment: fixed;
+                background-position: 0px -230px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin-left: auto;
+                margin-right: auto;
+                position: relative;
+
+            }
+
+            .marginleft {
+                margin-right: 2em;
+            }
+        }
+
+        .parallax::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0);
+            /* Adjust the opacity and color as needed */
+            backdrop-filter: blur(10px);
+            /* Adjust the blur radius as needed */
+        }
+    </style>
+
+    <div class="parallax">
+        <div class="parallaxbottom">
+        </div>
+    </div>
+
+
     <div class="padding"></div>
 
-    <div>
-        <div class="div-center margin20per poppins-font">
-            <img src="/site-images/boos1.png" class="image left" style="width:20%;"></img>
 
+
+        <div class="margin20per poppins-font div-panels">
+            <div class="image">
+                <img src="/site-images/gavin.png"></img>
+            </div>
             <div class="margin10px">
                 <div class="header">
                     About me
                 </div>
 
                 <div class="text">
-                    Based in Leiden, the Netherlands. Studying Industrial Design at THUAS (The Hague). 
+                    Based in Leiden, the Netherlands. Studying Industrial Design at THUAS (The Hague).
+                    <br>I am very much interested in product design, but I also have affinity for programming and the
+                    more technical aspects of products.
+                    The last few development phases are the phases that I enjoy most. Especially rendering and rapid
+                    prototyping.
+                    <br>In addition to all of this, I also work in a retail store specialized in everything related to
+                    flooring and window decorations.
+                </div>
+            </div>
+
+            <div class="margin10px">
+                <div class="header">
+                    Technical skills
+                </div>
+
+                <!--
+                <div class="logo-container">
+                     <img class="logo" src="/logos/blender.svg"></img>
+                     <img class="logo" src="/logos/solidworks.svg"></img>
+                     <img class="logo" src="/logos/html5.png"></img>
+                     <img class="logo" src="/logos/css3.png"></img>
+                     <img class="logo" src="/logos/fusion.png"></img>
+                     <img class="logo" src="/logos/blender.svg"></img>
+                     <img class="logo" src="/logos/solidworks.svg"></img>
+                     <img class="logo" src="/logos/html5.png"></img>
+                     <img class="logo" src="/logos/css3.png"></img>
+                     <img class="logo" src="/logos/fusion.png"></img>
+                </div>
+                -->
+
+                <div class="text" style="flex-direction: column;">
+                    <xs class="bold">CAD Software</xs>
+                    <ul style="margin: 0px;">
+                        <li>Solidworks</li>
+                        <li>Fusion360</li>
+                    </ul>
+                    <xs class="bold">3D modeling & animation</xs>
+                    <ul style="margin: 0px;">
+                        <li>Blender</li>
+                    </ul>
+                    <xs class="bold">Web development</xs>
+                    <ul style="margin: 0px;">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Nginx</li>
+                        <li>Cloudflare</li>
+                    </ul>
                 </div>
             </div>
         </div>
 
         <div class="padding"></div>
-
+<div class="margin20per poppins-font">
         <div class="center">
             <img src="/site-images/liilguy7.png" class="coverimage"></img>
-        </div>
-</body>
 
-<footer>© 2024 Powered by ankerd.nl</footer>
+            <a target="_blank" href="https://www.ankerd.nl/home" class="text poppins-font"
+            style="color: lightblue; text-decoration: none;">© 2024 Powered by ankerd.nl</a>
+            </div>
+</body>

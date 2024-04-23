@@ -2,154 +2,172 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+25&family=Quicksand:wght@300..700&display=swap');
 
 body {
-    margin: 0px;
-    background-color: #f7ffff;
+   margin: 0px;
+   background-color: #f7ffff;
 
 
 }
 
 /*mobile css*/
 @media screen and (max-width: 1200px) {
-    .mobilehidden{
-        display: none;
-    }
+   .mobilehidden {
+      display: none;
+   }
 
 }
 
 @media screen and (min-width: 1200px) {
-hr {
-   width: 70%;
-   color: gray;
-   border-width: 0;
-   height: 1px;
-   background-color: gray;
-}
+   hr {
+      width: 70%;
+      color: lightgray;
+      border-width: 0;
+      height: 1px;
+      background-color: lightgray;
+   }
 
-     .header-mega {
-        font-size: xx-large;
-     }
+   .header-mega {
+      font-size: xx-large;
+   }
 
-     .header {
+   .header {
       font-size: x-large;
       font-weight: 700;
-     }
+   }
 
-     .center {
+   .center {
 
-        display: flex;
-        justify-content: center;
-     }
+      display: flex;
+      justify-content: center;
+   }
 
-     .right {
-        display: flex;
-        justify-content: right;
-     }
+   .right {
+      display: flex;
+      justify-content: right;
+   }
 
-     .left {
-        display: flex;
-        justify-content: left;
+   .left {
+      display: flex;
+      justify-content: left;
 
-     }
+   }
 
-     .text-right {
-        text-align: right;
-     }
+   .text-right {
+      text-align: right;
+   }
 
-.text {
-   display: flex;
-}
+   .text {
+      display: flex;
+   }
 
-     .margin20per {
-        margin-left: 20%;
-        margin-right: 20%;
-     }
+   .margin20per {
+      margin-left: 20%;
+      margin-right: 20%;
+   }
 
-.margin10px {
-   margin-left: 10px;
-   margin-right: 10px;
-   margin-bottom: 10px;
-}
+   .margin10px {
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-bottom: 5%;
+   }
 
-.poppins-font {
-   font-family: "Poppins", sans-serif;
-   font-optical-sizing: auto;
-   font-style: normal;
-}
+   .poppins-font {
+      font-family: "Poppins", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+   }
 
-     .quicksand-700 {
+   .quicksand-700 {
       font-family: "Quicksand", sans-serif;
       font-optical-sizing: auto;
       font-weight: 700;
       font-style: normal;
-    }
-    
-.div-center {
-   display: flex;
+   }
 
-}
+   .div-center {
+      display: flex;
 
-    .ankerd-blue {
-    color: #6de9ff;
-    }
+   }
 
-.light {
-   font-weight: 350;
-}
+   .div-panels {
+      display: flex;
+      
+   }
 
-.bold {
-   font-weight: 700;
-}
+   .ankerd-blue {
+      color: #6de9ff;
+   }
 
-    .xs{
+   .light {
+      font-weight: 350;
+   }
+
+   .bold {
+      font-weight: 700;
+   }
+
+   .xs {
       font-size: 50%;
-    }
+   }
 
-     .xl {
+   .xl {
       font-size: 250%;
-     }
+   }
 
-     .xxxl {
-        font-size: 500%;
-     }
+   .xxxl {
+      font-size: 500%;
+   }
 
-     .navbar {
+   .navbar {
       display: flex;
       justify-content: flex-end;
-     }
+   }
 
-     .navbar-button {
+   .navbar-button {
       text-decoration: none;
       color: black;
       transition: 0.3s;
       font-family: "Poppins", sans-serif;
 
-     }
+   }
 
-     .navbar-margin-left {
-      margin-left: 20px;
-     }
+   .navbar-margin-left {
+      margin-left: 10%;
+   }
 
-     .navbar-button:hover {
+   .navbar-button:hover {
       text-decoration: none;
-      color: #bbf3fd;
+      color: #6de9ff;
       transition: 0.3s;
 
-     }
+   }
 
-     .padding {
-      padding-top: 50px;
-     }
+   .padding {
+      padding-top: 2%;
+   }
 
-.image {
-   border-radius: 10px;
-   box-shadow: 1px 1px 50px lightgray;
-   display: flex;
-   flex-wrap: wrap;
-}
+   .image {
+      display: flex;
+      flex-wrap: wrap;
+      width: fit-content;
+      width: -moz-fit-content;
+   }
 
-     .coverimage {
+   .coverimage {
       width: 60%;
-      border-radius: 10px;
+      border-radius: 1em;
       box-shadow: 1px 1px 50px lightgray;
-     }
+   }
+
+   .logo-container {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+   }
+
+   .logo {
+      display: flex;
+      width: 4em;
+      height: 4em;
+      margin: 1em;
+   }
 }
